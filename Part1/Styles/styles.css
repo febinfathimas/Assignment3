@@ -5,10 +5,11 @@ body {
     a:link{color: black; text-decoration:underline;}
     a:visited{color: blue; text-decoration:none;}
     a:hover{color: red; text-decoration-color: black;}
-    a:active{color: aqua;text-decoration:none;}
+    a:active{color: aqua;text-decoration:none;}}
     
-}
-.heading {color: red;border: 1px solid #929CA4;}
+.heading {color: red;border: 1px solid #929CA4;
+    background-color:#DFE3E6 ;
+    border-radius: 5px;}
 
 p::first-letter{font-size: 30px;}
 
@@ -19,4 +20,5 @@ p::first-letter{font-size: 30px;}
 ul li{list-style-type: none;}
 ul li:first-child{color: red;}
 ul li:last-child{color: blue;}
+
 		
